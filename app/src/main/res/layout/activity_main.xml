@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/darker_gray">
+
+    <!-- Vertikal CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/brightness_card"
+        android:layout_width="60dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/transparent"
+        app:cardBackgroundColor="@android:color/transparent">
+
+        <!-- Ichidagi slider (suriladigan joy) -->
+        <View
+            android:id="@+id/slider_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/holo_blue_light" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
